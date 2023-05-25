@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courgette', cursive; 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+main {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+hr {
+    width: 40%;
+}
+
+.list-box {
+    width: 40%;
+    margin: 0 auto;
+} 
+
+ol {
+    text-align: center;    
+}
+
+.btn {
+    color: #fff;
+    background: #00f;
+    padding: 0.7% 1.2%;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+

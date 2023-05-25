@@ -8,37 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Courgette&family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <title>Home Page</title>
-    <style>
-        * {
-            font-family: 'Courgette', cursive;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home Page</title>    
 </head>
 <body>
-    <header>
-        <img src="img/tjp.png" alt="The Just Project">
-    </header>
-    <main>
-        <h1>The Just Projects</h1>
-        <p>We learn by doing</p>
-        <hr>
-        <section>
+    <div class="">
+        <div class="img-box">
+            <img src="img/tjp.png" alt="The Just Project">
+        </div>
+        <main>
+            <h1>The Just Projects</h1>
+            <p>We learn by doing</p>
+            <hr>
             <h2>What you stand to gain</h2>
-            <ol type="a">
-                <li>Solid frontend developer skills</li>
-                <li>Learn collaboration with a team</li>
-                <li>Join a helpful tech community</li>
-                <li>Accelerate progress due to guided paths</li>
-            </ol>
-        </section>
-        <hr>
-        <section>
-            <p>Before we start, you may want to check out more <a href="about-us.html">About Us</a>.</p>
-            <p>Done? Then Create an account or Login to your account.</p>
-            <button>Get Started</button>
-            <button>Sign In Now</button>
-        </section>
-    </main>
+            <div class="list-box">                
+                <ol type="a">
+                    <li>Solid frontend developer skills</li>
+                    <li>Learn collaboration with a team</li>
+                    <li>Join a helpful tech community</li>
+                    <li>Accelerate progress due to guided paths</li>
+                </ol>
+            </div>
+            <hr>
+            <div>
+                <p>Before we start, you may want to check out more <a href="about-us.html">About Us</a>.
+                <br> Done? Then Create an account or Login to your account.</p>
+                <div class="btn-box">
+                    <button class="btn">Get Started</button>
+                    <button class="btn">Sign In Now</button>
+                    <button class="btn"><a href="table.html">Table Task</a></button>
+                </div>
+            </div>
+        </main>
+    </div>
 </body>
 </html>
