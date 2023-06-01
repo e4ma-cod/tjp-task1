@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/form.css">
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Contact Form</h1>
+        <form action="">
+            <table class="form-table">
+                <tbody>
+                    <tr class="table-row">
+                        <td><label for="name">Name:</label></td>
+                        <td><input type="text" name="name" id="name" class="input-lg" placeholder="Enter your Name" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="user-name">Username:</label></td>
+                        <td><input type="text" name="user-name" id="user-name" class="input-lg" placeholder="Enter your username" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password:</label></td>
+                        <td><input type="password" name="password" id="password" class="input-lg" placeholder="Enter your password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="re-password">Re-type Password:</label></td>
+                        <td><input type="password" name="re-password" id="re-password" class="input-lg" placeholder="Enter your password" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            <input type="radio" name="gender" id="male" class="input-sm">
+                            <label for="male" class="label-sm">Male</label>
+    
+                            <input type="radio" name="gender" id="female" class="input-sm">
+                            <label for="female" class="label-sm">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="skills">Techie Skills:</label></td>
+                        <td>
+                            <input type="checkbox" name="skills" id="html" class="input-sm">
+                            <label for="html" class="label-sm">HTML</label>
+
+                            <input type="checkbox" name="skills" id="css" class="input-sm">
+                            <label for="css" class="label-sm">CSS</label>
+
+                            <input type="checkbox" name="skills" id="javaScript" class="input-sm">
+                            <label for="javaScript" class="label-sm">JavaScript</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="number">Phone Number:</label></td>
+                        <td><input type="tel" name="number" id="number" class="input-lg" placeholder="Enter your phone number" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" name="email" id="email" class="input-lg box" placeholder="Enter your Email address" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="college">College:</label></td>
+                        <td>
+                            <select name="college" id="college" class="input-lg">
+                                <option value="" selected>Select a College</option>
+                                <option value="Federal Uni">Federal Uni</option>
+                                <option value="State Uni">State Uni</option>
+                                <option value="College">College of Edu</option>
+                            </select>  
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="text-right"><button class="btn">Submit</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

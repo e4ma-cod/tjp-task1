@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 0 auto;
+    border: 2px solid #000;
+    width: 30%;
+}
+
+caption {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 8% 0;
+}
+
+th, td {
+    padding: 2.5%;
+}
+
+th {
+    text-align: left;
+    font-size: 22px;
+}
+
+.w-30 {
+    width: 20%;
+}
